@@ -1,0 +1,78 @@
+.box1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 50px;
+}
+.box1 .menu {
+  display: flex;
+  justify-content: flex-start;
+}
+.box1 .menu .logo {
+  display: flex;
+  justify-content: flex-start;
+  height: 100px;
+  width: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.box1 .menu .input {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  padding: 40px;
+  border-radius: 50%;
+}
+.box1 .menu .pink {
+  background-color: fuchsia;
+  width: 100px;
+  border-bottom-right-radius: 30%;
+  border-top-right-radius: 30%;
+}
+.box1 .menu .hote {
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  padding-right: 10px;
+}
+.box1 .menu .boxuser {
+  padding-left: 50px;
+  display: flex;
+}
+.box1 .menu .boxuser .fa-regular {
+  display: flex;
+}
+.box1 .menu .boxuser .user {
+  padding-left: 5px;
+  border-radius: 10%;
+}
+.box1 .menu .boxuser .user .fa-circle-user {
+  display: flex;
+  height: 10px;
+  width: auto;
+}
+
+.box2 .icone {
+  padding: 10px;
+}
+
+.box3 {
+  padding: 10px;
+}
+
+.box4 .article .destination {
+  justify-content: space-between;
+  width: 250px;
+  height: 250px;
+  border-radius: 20%;
+  margin: 10px;
+  padding: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  bottom: auto;
+}/*# sourceMappingURL=style.css.map */
